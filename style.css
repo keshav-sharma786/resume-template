@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.upper-nav {
+  width: 100%;
+  height: 2rem;
+  background-color: darkblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  height: 2rem;
+  width: 12rem;
+}
+
+.logo img {
+  height: 2rem;
+  width: 5rem;
+}
+.part1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.preview-devices {
+  position: absolute;
+  left: 7rem;
+  color: white;
+  margin-top: 0.2rem;
+}
+
+.preview-devices i {
+  padding-right: 0.5rem;
+}
+
+.part2 a {
+  color: black;
+  font-size: 1.23rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.part2 a,
+i {
+  padding: 0.2rem;
+  color: white;
+}
+.part3 button {
+  background-color: skyblue;
+  height: 2rem;
+  width: 9.4rem;
+  border-radius: 0.3rem;
+  /* font-weight: 5rem; */
+}
+.part3 button span {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+.upper-nav-second {
+  width: 100%;
+  height: 5rem;
+  background-color: rgba(220, 220, 220, 0.525);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.upper-nav-second h2 a {
+  color: black;
+  text-decoration: none;
+}
+
+.part12 div a {
+  color: rgb(128, 128, 128);
+  font-size: 1.3rem;
+  font-weight: 400;
+  text-decoration: none;
+  padding-right: 1.7rem;
+}
+
+.part12 {
+  display: flex;
+  margin-left: 4.2rem;
+}
+
+.part13 i {
+  color: black;
+}
+
+.part12 div a:hover {
+  color: black;
+}
+
+/* .nav {
+  position: fixed;
+} */
+
+.kelly-image {
+  height: 45rem;
+  width: 100%rem;
+}
+
+.kelly-image img {
+  width: 100%;
+  height: 45rem;
+
+  z-index: 0;
+}
+
+.central-part {
+  position: absolute;
+  top: 20rem;
+  bottom: 20rem;
+  left: 23rem;
+}
+
+.central-part h3 {
+  color: grey;
+}
+
+.central-part h1 {
+  position: relative;
+  left: 12rem;
+}
+
+.button-container {
+  position: relative; /* Set the container to relative */
+  left: 15rem; /* Adjust this value to position the container */
+  top: 1rem; /* Adjust this value to position the container */
+}
+
+.footer {
+  height: 6rem;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.353);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  text-decoration: none;
+  color: blue;
+}
